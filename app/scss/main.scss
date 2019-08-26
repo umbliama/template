@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #f6f9fc;
+  font-family: "Open Sans", sans-serif;
+  color: #525f7f;
+}
+@import "./utility/_vars";
+@import "./utility/_media";
+@import "./utility/_components";
+@import "./header.scss";
+@import "./works.scss";

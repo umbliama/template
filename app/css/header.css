@@ -1,0 +1,28 @@
+.header {
+  background: url("../images/main__bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  padding: 1em;
+  justify-content: flex-end; }
+  .header__btn-item {
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    display: block;
+    transition: 0.5s cubic-bezier(0.22, 0.82, 0.165, 1); }
+    .header__btn-item:last-child {
+      transform: translateY(-5px); }
+    .header__btn-item:first-child {
+      transform: translateY(5px); }
+  .header__btn.active .header__btn-item {
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    display: block; }
+    .header__btn.active .header__btn-item:last-child {
+      width: 10px;
+      transform: translateY(-5px) rotate(-45deg); }
+    .header__btn.active .header__btn-item:first-child {
+      width: 10px;
+      transform: translateY(5px) rotate(45deg); }
